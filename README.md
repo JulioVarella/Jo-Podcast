@@ -1,2 +1,2 @@
 # Jo-Podcast
-Site desenvolvido para o processo seletivo da RUV Podcasts.
+Site desenvolvido com JavaScript, HTML e CSS para o processo seletivo da RUV Podcasts.
