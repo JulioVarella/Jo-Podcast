@@ -1,0 +1,164 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+ul {
+    padding: 0px!important;
+}
+
+.menu-principal {
+    width: 100%;
+    background-color: #010201;
+    height: 60px;
+}
+
+main {
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+}
+
+.logo {
+    float: left;
+    width: 70%;
+}
+
+.redes-sociais ul li {
+    margin-left: 22px;
+    display: inline-block;
+}
+
+.redes-sociais {
+    width: 30%;
+    float: right;
+}
+
+.header-2 {
+    background-color: #ffffff;
+    width: 980px;
+    margin: 0 auto;
+    border-bottom: 3px solid#efefef;
+    padding: 16px;
+}
+
+.menu ul li {
+    display: inline-block;
+    color: #8b8b8b;
+    margin-left: 16px;
+    height: 50px;
+}
+
+.menu ul li:hover {
+    border-bottom: 3px solid #f2a90f;
+
+}
+
+.menu ul li a:hover {
+    color: #f2a90f;
+
+}
+
+.menu ul li a{
+    color: #8b8b8b;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.menu {
+    width: 70%;
+    float: left;
+}
+
+.busca {
+    width: 30%;
+    float: right;
+}
+
+.busca input {
+    background-image: url(../img/icone-search.png);
+    background-repeat: no-repeat;
+    background-position: 95%;
+    background-size: contain;
+    height: 36px;
+    margin-top: 10px;
+    width: 190px;
+    padding-left: 14px;
+    border: 1px solid #d6d6d6;
+}
+
+.col-100 {
+    height: 80px;
+    width: 100%;
+    float: left;
+    position: relative;
+}
+
+.col-slider {
+    padding-top: 5px;
+    height: 500px;
+    width: 100%;
+    float: left;
+    position: relative;
+}
+
+button.slick-prev {
+    font-size: 0px;
+    border: none;
+    width: 25px;
+    height: 51px;
+    position: absolute;
+    background-color: transparent;
+    background-image: url(../img/anterior.png);
+    z-index: 9;
+    top: 35%;
+    left: 20%;
+    cursor: pointer;
+}
+
+button.slick-next {
+    font-size: 0px;
+    border: none;
+    width: 25px;
+    height: 51px;
+    position: absolute;
+    background-color: transparent;
+    background-image: url(../img/proximo.png);
+    z-index: 9;
+    top: 35%;
+    right: 24%;
+    cursor: pointer;
+}
+
+slick-initialized {
+    overflow: hidden;
+}
+
+.slick-dots li button {
+    font-size: 0px;
+    border: 5px solid #f2a90f;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background: transparent;
+    cursor: pointer;
+}
+
+.slick-dots li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.slick-dots {
+    position: absolute;
+    margin: 0 auto;
+    width: 50%;
+    left: 44%;
+    bottom: 20px;
+}
+
+li.slick-active button{
+    background: #f2a90f;
+}
