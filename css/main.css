@@ -198,9 +198,9 @@ p1 {
     font-family: "Montserrat",sans-serif;
 }
 
-.episodios-header {
+.episodios-header h2{
     text-align: center;
-    font-size: 22px;
+    font-size: 30px;
     color: #aaa8a8;
 }
 
@@ -239,10 +239,7 @@ input[type="image"] {
 }
 
 .episodios {
-    display: flex;
-    flex-wrap: wrap;
-    margin-right: -15px;
-    margin-left: -15px;
+    text-align: center;
 }
 
 .grid-container {
@@ -257,4 +254,57 @@ input[type="image"] {
     min-height: 400px;
     height: auto;
     max-width: 33%;
+}
+
+.col-3 {
+    margin: 10px 10px;
+    display: inline-block;
+    text-align: center;
+    width: 28%;
+    border-bottom: 2px solid #f2a90f;
+}
+
+.col-3 img {
+    height: 250px;
+    width: 80%;
+}
+
+.col-3 h3 {
+    text-align: center;
+    font-size: 30px;
+    color: #9a9a9a;
+}
+
+.bloco-texto {
+    padding: 1em;
+    margin-bottom: 20px;
+    
+}
+
+.bloco-texto:hover {
+    background-color: #1a2835;
+    opacity: 0.9;
+    transition: 0.4s;
+}
+
+.watch {
+    cursor: pointer;
+    width: auto;
+    min-width: 200px;
+    border: 1px solid #ffb705;
+    font-family: "Montserrat",sans-serif;
+    font-weight: bolder;
+    fill: #fff;
+    color: #fff;
+    background-color: transparent;
+    border-radius: 10px 10px 10px 10px;
+    padding: 9px 50px;
+    transition: transform .2s;
+}
+
+.watch:hover {
+    color: #010201;
+    background-color: #f2a90f;
+    opacity: 0.8;
+    transition: 0.3s;
 }
