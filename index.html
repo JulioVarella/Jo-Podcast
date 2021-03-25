@@ -50,6 +50,43 @@
             <img src="./img/josoares.png" alt="img-slider" /> -->
         </div>
     </div>
+
+    <div class="col-100">
+        <div class="content texto-destaque">
+            <h1>ELE VOLTOU!</h1>
+            <p class="p1">Após um período de descanso, <strong> Jô Soares </strong>está de volta com seu novo Podcast.
+            </p>
+            <div id="wrapper">
+                <div id='player'>
+                    <audio id="music_player">
+                        <source src="./img/vinheta.mp3" />
+                    </audio>
+                    <input type="image" src="./img/play.png" onclick="play_aud()" id="play_button">
+                    <input type="image" src="./img/pause.png" onclick="pause_aud()" id="play_button">
+                    <input type="image" src="./img/stop.png" onclick="stop_aud()" id="play_button">
+                    <img src="./img/volume.png" id="vol_img">
+                    <input type="range" id="change_vol" onchange="change_vol()" step="0.05" min="0" max="1" value="1">
+                    <div class="contador">
+                        <p>Quantas vezes você ja ouviu esse áudio até o fim: <a id="count">0</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="episodios-header">
+            <h2>OUÇA OS EPISÓDIOS</h2>
+        </div>
+        <div class="episodios grid-container">
+            <div class="card">
+                <img src="./img/ep-edu.jpg" alt="ep-1"/>
+                Eduardo Sterblich
+            </div>
+            <div>
+
+            </div>
+        </div>
+    </div>
+
+
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

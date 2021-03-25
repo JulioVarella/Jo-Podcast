@@ -12,12 +12,14 @@ ul {
     width: 100%;
     background-color: #010201;
     height: 60px;
+    border-bottom: 3px solid #f2a90f;
 }
 
-main {
+main, .content {
     margin: 0 auto;
     width: 980px;
     position: relative;
+    font-family: "Montserrat",sans-serif;
 }
 
 .logo {
@@ -36,10 +38,9 @@ main {
 }
 
 .header-2 {
-    background-color: #ffffff;
+    background-color: #131c25;
     width: 980px;
     margin: 0 auto;
-    border-bottom: 3px solid#efefef;
     padding: 16px;
 }
 
@@ -52,11 +53,14 @@ main {
 
 .menu ul li:hover {
     border-bottom: 3px solid #f2a90f;
-
+    opacity: 0.5;
+    transition: 0.2s;
 }
 
 .menu ul li a:hover {
-    color: #f2a90f;
+    color: #f1c86d;
+    opacity:1;
+    transition: 0.4s;
 
 }
 
@@ -161,4 +165,96 @@ slick-initialized {
 
 li.slick-active button{
     background: #f2a90f;
+}
+
+.texto-destaque {
+    text-align: center;
+    font-size: 22px;
+
+}
+
+.texto-destaque strong {
+    color: #dad6d6;
+}
+
+.texto-destaque h1 {
+    color: #aaa8a8;
+}
+
+.texto-destaque p{
+    color: #9a9a9a;
+
+}
+
+.content {
+    border-bottom: 2px solid #f2a90f;
+}
+
+body {
+    background-color: #131c25;
+}
+
+p1 {
+    font-family: "Montserrat",sans-serif;
+}
+
+.episodios-header {
+    text-align: center;
+    font-size: 22px;
+    color: #aaa8a8;
+}
+
+#wrapper {
+ text-align:center;
+ margin:16px auto;
+ padding:0px;
+ width:995px;
+}
+
+#player {
+ background-color: #131c25;
+ width:400px;
+ margin-left:300px;
+ padding:2px;
+ box-sizing:border-box;
+ border: 2px solid #f2a90f;
+}
+
+input[type="image"] {
+ float:left;
+ height:20px;
+ margin-left:2px;
+ margin-right:5px;
+ margin-top:2px;
+}
+
+#vol_img {
+ margin-left:150px;
+ width:20px;
+}
+
+.contador {
+    display: inline-flex;
+    font-size: 16px;
+}
+
+.episodios {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+
+.card {
+    min-height: 400px;
+    height: auto;
+    max-width: 33%;
 }
