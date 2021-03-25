@@ -273,6 +273,8 @@ input[type="image"] {
     text-align: center;
     font-size: 30px;
     color: #9a9a9a;
+    font-family: "Montserrat",sans-serif;
+    font-weight: bolder;
 }
 
 .bloco-texto {
@@ -306,5 +308,51 @@ input[type="image"] {
     color: #010201;
     background-color: #f2a90f;
     opacity: 0.8;
+    transition: 0.6s
+}
+
+.footer {
+    align-items: center;
+    height: 120px;
+    border-top: 1px solid #ccc;
+    padding-top: 0;
+    padding-bottom: 0;
+    bottom: 0;
+    z-index: 1;
+    position: relative;
+    width: 100%;
+    color: #fff;
+    background: #111;
+    font-family: "Montserrat",sans-serif;
+    font-size: 14px;
+    font-weight: lighter;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.col-4 h3 {
+    width: 30%;
+    padding-left: 30px;
+    text-align: center;
+    font-size: 22px;
+    color: #9a9a9a;
+    font-family: "Montserrat",sans-serif;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.col-4 h3:hover {
+    color: #f2a90f;
+    opacity: 1;
     transition: 0.3s;
+}
+
+.col-4 {
+    display: flex;
+    width: 50%;
+    padding-left: 20px;
+}
+
+.footer .redes-sociais ul{
+    float: right;
 }
