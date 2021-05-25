@@ -1,4 +1,4 @@
-# Jo-Podcast
+# Site com JS
 
 Site desenvolvido com JavaScript, HTML e CSS para o processo seletivo da RUV Podcasts.
 
